@@ -15,19 +15,19 @@ public class cal {
             float res = Integer.valueOf(array[0]) + Integer.valueOf(array[1]);
             System.out.println(res);
         }
-        if (actualString.contains("-")) {
+        else if (actualString.contains("-")) {
             Pattern pattern = Pattern.compile("\\-");
             String[] array = pattern.split(actualString, 0);
             float res = Integer.valueOf(array[0]) - Integer.valueOf(array[1]);
             System.out.println(res);
         }
-        if (actualString.contains("*")) {
+        else if (actualString.contains("*")) {
             Pattern pattern = Pattern.compile("\\*");
             String[] array = pattern.split(actualString, 0);
             float res = Integer.valueOf(array[0]) * Integer.valueOf(array[1]);
             System.out.println(res);
         }
-        if (actualString.contains("/")) {
+        else if (actualString.contains("/")) {
             Pattern pattern = Pattern.compile("\\/");
             String[] array = pattern.split(actualString, 0);
             float res = Integer.valueOf(array[0]) / Integer.valueOf(array[1]);
