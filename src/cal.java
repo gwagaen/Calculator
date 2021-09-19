@@ -8,7 +8,7 @@ public class cal {
         System.out.print("Input: ");
         String actualString = inputstr.nextLine();
         actualString = actualString.replaceAll("\\s+", "");
-
+// jhgpiuh liuhiuh
         if (actualString.contains("+")) {
             Pattern pattern = Pattern.compile("\\+");
             String[] array = pattern.split(actualString, 0);
@@ -36,6 +36,5 @@ public class cal {
         else {
             System.out.println("Please, try again!");
         }
-
     }
 }
